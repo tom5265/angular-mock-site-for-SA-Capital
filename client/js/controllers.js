@@ -1,6 +1,8 @@
 var controllers = angular.module('MyApp.controllers', []);
 
-controllers.controller('homeController', []);
+controllers.controller('homeController', ['$scope', function ($scope) {
+    
+}]);
 
 controllers.controller('philosophyController', []);
 

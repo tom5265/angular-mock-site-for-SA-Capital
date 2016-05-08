@@ -1,24 +1,24 @@
 var app = angular.module('MyApp', ['MyApp.controllers', 'ngRoute']);
-app.config(['routeProvider', function($routeProvider) {
+app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
     .when('/', {
-        templateURL: 'views/home.html',
+        templateUrl: 'views/home.html',
         controller: 'homeController'
     })
     .when('/philosophy', {
-        templateURL: 'views/philosophy.html',
+        templateUrl: 'views/philosophy.html',
         controller: 'philosophyControler'
     })
     .when('/performance', {
-        templateURL: 'views/performance.html',
+        templateUrl: 'views/performance.html',
         controller: 'performanceController'
     })
     .when('/team', {
-        templateURL: 'views/team.html',
+        templateUrl: 'views/team.html',
         controller: 'teamController'
     })
     .when('/contact', {
-        templateURL: 'views/contact.html',
+        templateUrl: 'views/contact.html',
         controller: 'contactController'
     })
     .otherwise({

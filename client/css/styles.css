@@ -1,3 +1,30 @@
-.navbar .navbar-brand a img {
-    width: 3em;
+.height-fix {
+    min-height: 5.5em;
+    line-height: 5.5em;
+}
+
+.navbar .navbar-brand img {
+    width: 16em;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.navbar-collapse {
+    margin-right: 0.5em;
+}
+
+
+.navbar-nav>li>a {
+    padding-top: 2em;
+}
+
+.home-wrapper {
+    background-color: lightgreen;
+    width: 100%;
+    padding-top: 8em;
+}
+
+
+.debris {
+    text-align: center;
 }
